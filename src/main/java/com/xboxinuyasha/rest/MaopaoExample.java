@@ -25,6 +25,7 @@ public class MaopaoExample {
             }
         }
         user.put("intList", intList);
+        user.put("maotest", "maotest");
         return JsonResult.success(user);
     }
 }
